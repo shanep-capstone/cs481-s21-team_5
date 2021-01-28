@@ -7,11 +7,13 @@ Complete the set up lab and brainstorm project ideas
 
 ### Last week's Accomplishments
 
+
 - Gina and I met with Heidi from IBO to discuss the posibility of a bird tracking emmbedded systems project.
 - We discovered there would be an opportunity to track nesting birds at their river site.
 - Completed the set up lab
 - Brainstormed multiple ideas
 - Researched different communication protocols
+
 
 ### My task for this week:
 
