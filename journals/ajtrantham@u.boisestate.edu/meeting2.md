@@ -1,12 +1,21 @@
 # Meeting 2
 
-- Attendance: All present
+### Attendance: Sammie was absent
 
-Well John derailed the meeting today by spending the entire time talking about baby alpaca's.
-Every time we tried to get back on task John would become irate about not respecting his time
-and extensive knowledge of baby alpaca's.  John hasn't done anything on his portion of the paper
-yet.
+### Meeting Prupose:
+Complete project epic 
 
-My task for this week:
+### Last week's Accomplishments
+- Got approoval from Heidi on our game plan. :)
+- Create Project requirements and expectations in the project epic file
+- Research hardware and GMS communications
+- wrote and edidted the project epic
 
-- Start working on researching processes in Linux
+### My task for this week:
+- ask about funding - apparently another team got funding
+- being to get tech set. We will need our hardware and corresponding tool chain
+
+### Lessons Learned
+ - Learned about GMS/GRMS and cell transmitting
+ - Reviewed UASRT serial communication protocol
+ - Learned about anarchy  project management 
