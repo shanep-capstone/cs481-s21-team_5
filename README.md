@@ -35,6 +35,14 @@ A public facing web page describing the project and sharing ongoing updates or o
    * Minimize field visits by IBO personnel for maintenance. The team will determine the best option for power by considering cost and required frequency of replacement. Factors that will impact power consumption and thus battery life include method of storing or transferring data and polling frequency, which determines the interval at which the reader scans for tags. IBO personnel will be consulted to determine the optimal polling frequency to avoid missing bird visits without unnecessarily reducing battery life.
 
 
+### Epic Feedback from Shane
+
+
+Great project!! I love the initiative! Just like we talked today on zoom please feel free to drive this project in a direction that makes sense to you! Also don’t forget to get me that hardware list when you have it!
+
+I am excited to see the finished project! 
+
+
 ### Tech lab
 
 TODO:[Tech Lab](https://shanep.github.io/capstone/labs/tech/)
