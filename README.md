@@ -47,6 +47,21 @@ I am excited to see the finished project!
 
 TODO:[Tech Lab](https://shanep.github.io/capstone/labs/tech/)
 
+The majority of the tech decisions our group needed to make revolved around hardware selection. The first decision we had to make was whether to use Raspberry Pi or the Arduino platform. Because the RFID reader will need to operate in the field using batteries for power and visits to change batteries need to be minimized, with a minimum of two weeks preferred for operation between battery changes, we decided on the Arduino platform because of its lower power consumption. 
+
+Once we had decided on Arduino, we then needed to decide on a specific board type. We selected the Adafruit METRO 328 board, which uses the Arduino Uno open source design. We decided on this because the Uno is the standard Arduino board, so it is easier to find information. We considered designs that use 3.3V instead of 5V like the Uno because they would further reduce power consumption, but decided to stick with the standard 5V design for the prototype. We anticipate that when an operating prototype is achieved, we may be able to make refinements or change parts of the hardware to reduce power consumption and/or overall cost. 
+
+The second component we needed to select was an RFID reader module or chip, which included options that varied from an EM4095 RFID front end chip, which cost a couple of dollars and would require the most electrical engineering knowledge to get working, to the ID-3LA RFID Reader from Sparkfun, which cost 26 dollars and would be the most straightforward to use. We decided on an option closer to the EM4095, but which included an external antenna of a size and range that should work with the nest box. This option will take more effort to get working than the ID-3LA, but was much less expensive and will not require us to either purchase a separate antenna or purchase the supplies and figure out how to roll and tune the antenna from scratch. If the prototype is successful we will have options to attempt to improve the read range with a custom antenna and also potentially reduce cost.
+
+Programming language and libraries:
+
+Our language selection was driven by the hardware considerations. The  Raspberry Pi would have allowed us to potentially use Python, but Arduino was a much lower power option. Arduino uses the Arduino programming language, which is C++. Because the physical environment is limited, not all C/C++ features can be used. We will use the Arduino IDE, which is written in Java and can run on Windows, Mac OS X and Linux. 
+
+RTClib (https://github.com/adafruit/RTClib), a real time clock library for Arduino, will be used in order to use the real time clock to get and record a timestamp when an RFID PIT tag is within range and activated, and read by the reader.
+
+Arduino SD library, which will allow reading and writing to SD cards, which we will use to log PIT tag IDS each time they are read along with the associated timestamp.
+
+
 ## Planning Lab
 
 TODO:[Planning Lab](https://shanep.github.io/capstone/labs/planning/)
