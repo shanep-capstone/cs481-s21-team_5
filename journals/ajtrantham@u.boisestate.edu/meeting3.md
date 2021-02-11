@@ -1,16 +1,26 @@
-# Meeting 3
+# Meeting 3 (2-4)
 
-- Attendance: John was absent AGAIN!
+- Attendance: All in attendance
 
-Today the team and I compared our progress on the paper. Bob had some issues getting QEMU all
-configured properly to run his OS so we all chipped in and helped him out. Everyone is making
-really good progress! We are all feeling good about getting done, except for Johns part of course.
+### Meeting Prupose:
+Working on the Tech lab and choosing hardware
 
-UPDATE: John sent an email 3 hours after the meeting was complete and said that he was cooking
-peeled donuts for breakfast and one of them exploded so he was in the hospital all morning and
-that is why he missed the meeting.
+### Last week's Accomplishments
+- We picked hardware and got funding
+- Looked at the ardunio build system
+- Asked about funding
 
-My task for this week:
+### My task for this week:
+- We have hareware now we need to figure out our corresponding toolchain and build system
+- working on build system implementation and hopefully receive and distribute hardware
+- It might be worth trying to get a nest box
+- Getting our hello world to build with our including our dependencies [sd card lib, rfid]
 
-- Start working on researching scheduling in Linux
-- Merge in all my work on the process section from previous week
+### Lessons Learned
+ - There are 4 million hardware providers out there with a million options and very
+ - similar products
+ - We evenutally went with AdaFrout products. Spark fun had some good options as well
+ - It is important to note that many plaform including the STM32 nucleo board are ardunio compatable
+ - There are different frequencies of rfid readers and coresponding chips, an antanae is required to detect the chip
+ - Real Time Clock is required for keeping time. It runs on its own independant battery so it can keep going after the chip is powered off
+ - Timers are great but they can only start counting once the microprocessor is powered on
