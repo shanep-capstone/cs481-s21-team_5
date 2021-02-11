@@ -1,16 +1,23 @@
-# Meeting 3
+# Journal 3
 
-- Attendance: John was absent AGAIN!
+#### Meeting 2 (2/4/21) summary:
 
-Today the team and I compared our progress on the paper. Bob had some issues getting QEMU all
-configured properly to run his OS so we all chipped in and helped him out. Everyone is making
-really good progress! We are all feeling good about getting done, except for Johns part of course.
+- Attendance: All present (AJ, Gina, Sammie)
 
-UPDATE: John sent an email 3 hours after the meeting was complete and said that he was cooking
-peeled donuts for breakfast and one of them exploded so he was in the hospital all morning and
-that is why he missed the meeting.
+The team spent the meeting time researching and looking at hardware component options so that we could get a request submitted as soon as possible. After we ran over time, we decided to keep working individually and get a wishlist emailed to Shane Panter on Friday.
 
-My task for this week:
+#### Work completed last week, prior to Team Meeting 3 (2/4/21 - 2/11/21):
 
-- Start working on researching scheduling in Linux
-- Merge in all my work on the process section from previous week
+- Completed the tech lab
+- Selected major hardware components and submitted request to Shane Panter
+- Researched avian leg bands and RFID PIT tag options
+- Corresponded with Heidi @ IBO about tag options
+
+The team spend a substantial amount of time researching hardware component options for the reader prototype in order to get a wishlist submitted. While we weren't expecting to need to make those decisions quite so fast, it was good to get it completed early in the process. I spent some additional time tracking down PIT tag options and checking w/ Heidi what size/type to get.
+
+
+#### My tasks for this week (2/11/21 - 2/18/21):
+
+- Order the avian leg bands/PIT tags
+- Complete the Build lab
+- Research automated build pipeline for Arduino projects
