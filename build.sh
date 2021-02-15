@@ -1,2 +1,9 @@
 #!/bin/bash
-exit 127
+
+cd src/Blink
+
+platformio run
+
+
+
+
