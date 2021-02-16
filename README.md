@@ -69,3 +69,20 @@ TODO:[Planning Lab](https://shanep.github.io/capstone/labs/planning/)
 - [Jane's Plan](planning/janedoe@u.boisestate.edu.md)
 - John's Plan
 - Bob's Plan
+
+## Team Build Notes
+
+Install platformio - https://platformio.org/platformio-ide
+It will  install at C:\Users\<username>\.platformio
+
+add to your Path Environment variable
+C:\Users\<username>\.platformio\penv\Scripts\
+
+to build:
+$ sh build.sh
+
+to clean:
+$ sh clean.sh
+
+check exit code:
+$ echo $?
