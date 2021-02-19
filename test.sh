@@ -1,2 +1,6 @@
 #!/bin/bash
-exit 127
+#!/bin/bash
+
+cd src/Blink
+
+pio test
