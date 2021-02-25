@@ -30,4 +30,4 @@ jobs:
     - name: Install library dependencies
       run: pio lib -g install arduinoUnity
     - name: Run PlatformIO
-      run: pio run 
+      run: pio run -e metro
