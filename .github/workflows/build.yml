@@ -31,3 +31,12 @@ jobs:
         pip install --upgrade platformio
     - name: Run PlatformIO
       run: sh build.sh
+    - name: Report Status
+      if: always()
+      uses: actions/checkout@v2
+      with:
+        status: ${{ job.status }}
+        notify_when: 'success,failure,warnings'
+      env:
+        SLACK_USERNAME: githubInfo
+        SLACK_WEBHOOK: ${{ secrets.SLACK }}
