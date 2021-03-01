@@ -33,10 +33,9 @@ jobs:
       run: sh build.sh
     - name: Report Status
       if: always()
-      uses: ravsamhq/notify-slack-action@master
+      uses: rtCamp/action-slack-notify@v2
       with:
-        status: ${{ job.status }}
+        SLACK_MESSAGE: ${{ job.status }}
         notify_when: 'success,failure,warnings'
       env:
-        SLACK_USERNAME: githubInfo
         SLACK_WEBHOOK: ${{ secrets.SLACK }}
