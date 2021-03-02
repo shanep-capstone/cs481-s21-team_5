@@ -1,6 +1,8 @@
 # CS481 - Senior Design Project
 
-TODO:[CI Lab](https://shanep.github.io/capstone/labs/ci/)
+
+![example workflow](https://github.com/shanep-capstone/cs481-s21-team_5/actions/workflows/build.yml/badge.svg)
+
 
 ## Project Epic
 
@@ -45,7 +47,6 @@ I am excited to see the finished project!
 
 ### Tech lab
 
-TODO:[Tech Lab](https://shanep.github.io/capstone/labs/tech/)
 
 The majority of the tech decisions our group needed to make revolved around hardware selection. The first decision we had to make was whether to use Raspberry Pi or the Arduino platform. Because the RFID reader will need to operate in the field using batteries for power and visits to change batteries need to be minimized, with a minimum of two weeks preferred for operation between battery changes, we decided on the Arduino platform because of its lower power consumption. 
 

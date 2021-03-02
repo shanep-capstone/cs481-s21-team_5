@@ -31,3 +31,11 @@ jobs:
         pip install --upgrade platformio
     - name: Run PlatformIO
       run: sh build.sh
+    - name: Report Status
+      if: always()
+      uses: rtCamp/action-slack-notify@v2
+      with:
+        SLACK_MESSAGE: ${{ job.status }}
+        notify_when: 'success,failure,warnings'
+      env:
+        SLACK_WEBHOOK: ${{ secrets.SLACK }}
