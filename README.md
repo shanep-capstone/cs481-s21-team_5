@@ -2,6 +2,9 @@
 
 TODO:[CI Lab](https://shanep.github.io/capstone/labs/ci/)
 
+![example workflow](https://github.com/shanep-capstone/cs481-s21-team_5/actions/workflows/build.yml/badge.svg)
+
+
 ## Project Epic
 
 Project: RFID-based system to log nest box visits by banded birds
