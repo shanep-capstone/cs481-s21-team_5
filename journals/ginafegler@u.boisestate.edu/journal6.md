@@ -8,11 +8,14 @@ AJ and I spent the meeting working on the CI lab. We worked on setting up a work
 
 #### Work completed last week, prior to Team Meeting 6 (2/25/21 - 3/4/21):
 
-- Completed the Planning lab
+- Completed the CI lab
+- Implemented Platformio CI to build but not run tests, since that requires a board, set up the badge in the README
+-coordinated w/ Heidi to get the nestboxes, Sammie picked them up
 
 
 
 #### My tasks for this week (3/4/21 - 3/11/21):
 
 - Complete the Planning lab
+- Work on first tasks after they've been planned
 
