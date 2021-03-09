@@ -2,6 +2,8 @@
 
 ## User Story
 
+Device Enclosure and Mounting
+
 As an Intermountain Bird Observatory researcher, I need to be able to easily place and secure the RFID 
 antenna and reader in a way that will not disturb the birds visiting it. I need the device to be heavily 
 weather proofed to withstand year long placement in the open.    
