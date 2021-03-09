@@ -1,13 +1,3 @@
-# Jane Doe
-
-It is expected that all team members leverage their coursework from CS471 to
-create good user stories in a role-goal-benefit format, a set of
-tasks, and well written Definition of Done (DOD) criteria. Do not take
-this example as a license to write a one sentence user story or a one sentence
-time estimation method.
-
-**NOTE: Examples shown here would be considered C- (or lower) work.**
-
 ## User Story
 
 RFID Detection
@@ -20,6 +10,8 @@ As a researcher at Intermountain Bird Observatory, I want to detect when a black
 	-   Implement tag read so that when a tag is detected, an led on the board will light up to visually verify a successful read so that the user can verify that the antenna and reader are functioning during field visits for set up and swapping SD cards and batteries.	    
 	
 	-   Write directions to test tag detection and include in the user manual.
+	
+	estimation via bucket system: 20
 
 2. Write tests for tag detection functionality. Write unit tests to verify:
 
@@ -71,18 +63,15 @@ As a researcher at Intermountain Bird Observatory, I want to detect when a black
 	    
 	-   Document the times/values implemented for night-time power save mode and how to change these in the code in the user manual.
 
-### Time estimation method
+## Time estimation method
 
-The team used planning poker to estimate that each of my tasks is roughly
-8 hours of work.
+The team completed our agile time estimation using the Bucket System. We used this system because it is relatively fast to complete the first steps, it allows everyone to participate equally, and it provides relative results rather than absolute estimates. We felt that the relative results would help us to divide the work equally, since we thought we had a reasonable grasp of how big tasks were relative to each other, even if we weren't sure how many hours they would take.
+ 
+We met via Zoom and used a Google Doc to make a comprehensive list of tasks and a blank subsection for each bucket. We used buckets 0, 1 ,2, 3, 4, 5, 8, 13, 20, 50, 100 and 200 for our time estimation, although we did not end up with tasks in all the numbered buckets. We then discussed the first few tasks together and collaboratively agreed which bucket they each belonged in, discussing the effort involved for each, one task at a time.
 
-- Task 1	 
-- Task 2
-- Task 3
-- Task 4
-- Task 5 
-- Task 6 
+We tried to start with tasks that had a range of levels of effort to give us representative tasks to refer to when estimating the remaining tasks. We then divided the rest of the tasks up between the three of us and we individually assigned tasks to buckets on our own. 
 
+We then met again via Zoom and reviewed the buckets and the tasks in each and made adjustments.
 
 ## Definition of Done
 
