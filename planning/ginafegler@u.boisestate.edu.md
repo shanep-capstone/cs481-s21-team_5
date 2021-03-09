@@ -10,8 +10,6 @@ As a researcher at Intermountain Bird Observatory, I want to detect when a black
 	-   Implement tag read so that when a tag is detected, an led on the board will light up to visually verify a successful read so that the user can verify that the antenna and reader are functioning during field visits for set up and swapping SD cards and batteries.	    
 	
 	-   Write directions to test tag detection and include in the user manual.
-	
-	estimation via bucket system: 20
 
 2. Write tests for tag detection functionality. Write unit tests to verify:
 
@@ -71,7 +69,16 @@ We met via Zoom and used a Google Doc to make a comprehensive list of tasks and 
 
 We tried to start with tasks that had a range of levels of effort to give us representative tasks to refer to when estimating the remaining tasks. We then divided the rest of the tasks up between the three of us and we individually assigned tasks to buckets on our own. 
 
-We then met again via Zoom and reviewed the buckets and the tasks in each and made adjustments.
+We then met again via Zoom and reviewed the buckets and the tasks in each, discussed and made adjustments.
+
+The tasks for the RFID detection story were placed into buckets as follows:
+
+- Task 1 - Bucket 20
+- Task 2 - Bucket 20
+- Task 3 - Bucket 3
+- Task 4 - Bucket 2
+- Task 5 - Bucket 13
+- Task 6 - Bucket 8
 
 ## Definition of Done
 
