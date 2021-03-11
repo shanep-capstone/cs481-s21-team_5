@@ -65,11 +65,9 @@ Arduino SD library, which will allow reading and writing to SD cards, which we w
 
 ## Planning Lab
 
-TODO:[Planning Lab](https://shanep.github.io/capstone/labs/planning/)
-
-- [Jane's Plan](planning/janedoe@u.boisestate.edu.md)
-- John's Plan
-- Bob's Plan
+- [AJ's Plan](planning/ajtrantham%40u.boisestate.edu.md)
+- [Gina's Plan](planning/ginafegler@u.boisestate.edu.md)
+- [Sammie's Plan](planning/samanthafullmer717@u.boisestate.edu.md)
 
 ## Team Build Notes
 
